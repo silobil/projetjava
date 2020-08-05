@@ -1,0 +1,218 @@
+
+.body {
+  background: url('./images/casino02.jpeg') center fixed;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  font-family: fantasy;
+}
+
+#connexion {
+  max-width: 350px;
+  border-radius: 25px;
+  border: 3px #FFD700 dashed;
+  box-shadow: 15px 15px 0px #FFFFFF;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 40px;
+  color: #fff;
+  margin-top: 100px;
+}
+
+.welcom {
+  text-align: center;
+  text-shadow: 2px 2px 4px #FFD700;
+}
+
+.input-text-home {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px 5px;
+  background: rgba(0, 0, 0, 0.10);
+  outline: none;
+  border: none;
+  border-bottom: 1px dotted #fff;
+  color: #fff;
+  margin: 5px;
+  font-weight: bold;
+}
+
+.input-submit {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 0;
+  margin-top: 30px;
+  outline: none;
+  border: none;
+  background: #FFD700;
+  opacity: 0, 7;
+  border-radius: 20px;
+  font-size: 20px;
+  color: #000;
+  cursor: pointer;
+  transition-duration: 1s;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(1, .11, .22, 1.41);
+  transition-delay: 0.001s;
+}
+
+.input-submit:hover {
+  color: #fff;
+  background-color: #000;
+  transition: width 5s ease-in-out 2s, height 2s ease-in-out 2s;
+  transform: scale(1.2);
+}
+
+.input-submit:active {
+  background-color: #FFD700;
+}
+
+.body-casino {
+  background: url('./images/casino01.png') center fixed;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#go {
+  max-width: 750px;
+  border-radius: 25px;
+  border: 3px #FFD700 dashed;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 40px;
+  color: #fff;
+  margin-top: 50px;
+}
+
+.casino {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px 5px;
+  background: rgba(0, 0, 0, 0.10);
+  outline: none;
+  border: none;
+  border-bottom: 1px dotted #fff;
+  color: #fff;
+  margin: 5px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+#input-submit-casino {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 10px 0;
+  margin-top: 30px;
+  outline: none;
+  border: none;
+  background: #FFD700;
+  opacity: 0, 7;
+  border-radius: 20px;
+  font-size: 20px;
+  color: #000;
+  cursor: pointer;
+  transition-duration: 1s;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(1, .11, .22, 1.41);
+  transition-delay: 0.001s;
+  margin-left: 25%;
+}
+
+#input-submit-casino:hover {
+  color: #fff;
+  background-color: #000;
+  transition: width 5s ease-in-out 2s, height 2s ease-in-out 2s;
+  transform: scale(1.2) rotate(5deg);
+}
+
+.input-text-casino {
+  width: 35%;
+  box-sizing: border-box;
+  padding: 12px 5px;
+  background: rgba(0, 0, 0, 0.10);
+  outline: none;
+  border: 3px #FFD700 dashed;
+  border-bottom: 1px dotted #fff;
+  color: #fff;
+  margin: 5px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+
+.select-style {
+  padding: 0;
+  margin: 0;
+  border: 1px solid #ccc;
+  width: 120px;
+  border-radius: 3px;
+  overflow: hidden;
+  background-color: #fff;
+  background: #fff;
+  position: relative;
+}
+
+.select-style select {
+  padding: 5px 8px;
+  width: 130%;
+  border: 3px #8B0000 dashed;
+  box-shadow: none;
+  background-color: transparent;
+  background-image: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.select-style:after {
+  top: 50%;
+  left: 85%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(0, 0, 0, 0);
+  border-top-color: #000000;
+  border-width: 5px;
+  margin-top: -2px;
+  z-index: 100;
+}
+
+.select-style select:focus {
+  outline: none;
+}
+
+#solde,
+#pertes {
+  width: 15%;
+  box-sizing: border-box;
+  padding: 12px 5px;
+  background: rgba(0, 0, 0, 0.10);
+  outline: none;
+  border: 3px #FFD700 dashed;
+  border-bottom: 1px dotted #fff;
+  color: #fff;
+  margin: 5px;
+  font-weight: bold;
+  margin-left: 85%;
+  text-align: center;
+}
+
+#solde-text,
+#pertes-text {
+  margin-top: 0;
+  margin-left: 85%;
+  color: #FFD700;
+}
+
+.prenom-nom-pseudo {
+  background-color: #000;
+  color: #FFD700;
+  border-radius: 10px;
+  border: 3px #FFD700 dashed;
+  height: 20px;
+  width: 300px;
+  text-align: center;
+  margin-top: 10px;
+}
